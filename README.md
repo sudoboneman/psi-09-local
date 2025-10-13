@@ -14,10 +14,10 @@
 ### Project Structure
 ```
 psi-09-local/
-├── generateAuth.js     # Generates .wwebjs_auth folder
-├── package.json        # Node dependencies
-├── .env.example        # Example env configuration
-└── README.md
+├── login.js     # Generates .wwebjs_auth folder
+├── package.json # Node dependencies
+├── README.md
+└── .wwebjs_auth, .wwebjs_cahe # transferred to psi-09-web
 ```
 
 ### Usage
