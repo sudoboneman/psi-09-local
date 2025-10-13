@@ -1,4 +1,4 @@
-# psi-09-local 🛠
+# psi-09-local
 
 > Local setup tool to generate `.wwebjs_auth` for the PSI-09 WhatsApp bot.
 
