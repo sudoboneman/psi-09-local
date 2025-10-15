@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 10000;
 app.listen(port, () => {
-  console.log(`🌐 Listening on port ${port}`);
+  console.log(`Listening on port ${port}`);
 });
 
 const client = new Client({
@@ -21,11 +21,11 @@ const client = new Client({
 });
 
 client.on('qr', () => {
-  console.log('📸 QR requested (ignore this if you’re using Link with phone number)');
+  console.log('QR requested (ignore this if you’re using Link with phone number)');
 });
 
 client.on('ready', () => {
-  console.log('✅ Logged in and session saved to .wwebjs_auth');
+  console.log('Logged in and session saved to .wwebjs_auth');
 });
 
 client.initialize();
